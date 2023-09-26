@@ -21,8 +21,8 @@ public class Automovil extends Transporte_Terrestre {
         this.Transmision="";
     }
 
-    public Automovil(String ID_transporte, String Empresa_Asociada, String Marca, String color, String Num_Llantas, String Permiso_Circulacion, int Num_Puertas, String Riteve, String Traccion, String Transmision) {
-        super(ID_transporte, Empresa_Asociada, Marca, color, Num_Llantas, Permiso_Circulacion);
+    public Automovil(String ID_transporte, String Empresa_Asociada, String Marca, String color, String Num_Llantas, String Permiso_Circulacion, String Tipo_Combustible, int Num_Puertas, String Riteve, String Traccion, String Transmision) {
+        super(ID_transporte, Empresa_Asociada, Marca, color, Num_Llantas, Permiso_Circulacion, Tipo_Combustible);
         this.Num_Puertas = Num_Puertas;
         this.Riteve = Riteve;
         this.Traccion = Traccion;

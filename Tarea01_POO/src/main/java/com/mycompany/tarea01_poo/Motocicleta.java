@@ -17,8 +17,8 @@ public class Motocicleta extends Transporte_Terrestre{
         this.Seguro="";
     }
 
-    public Motocicleta(String ID_transporte, String Empresa_Asociada, String Marca, String color, String Num_Llantas, String Permiso_Circulacion, String Tipo_Moto, String Seguro) {
-        super(ID_transporte, Empresa_Asociada, Marca, color, Num_Llantas, Permiso_Circulacion);
+    public Motocicleta(String ID_transporte, String Empresa_Asociada, String Marca, String color, String Num_Llantas, String Permiso_Circulacion, String Tipo_Combustible, String Tipo_Moto, String Seguro) {
+        super(ID_transporte, Empresa_Asociada, Marca, color, Num_Llantas, Permiso_Circulacion,Tipo_Combustible);
         this.Tipo_Moto = Tipo_Moto;
         this.Seguro = Seguro;
     }
